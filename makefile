@@ -2,7 +2,7 @@
 
 CC = g++
 
-CXXFLAGS = -g -std=c++11
+CXXFLAGS = -g -std=c++11 -pthread
 
 #.cpp's only you numpty
 OBJS = test.o
